@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+  <div class="registration-container">
+    <h1 class="mulah-title">MULAH</h1>
+    <h2 class="registration-title">Registration</h2>
+    <p class="italic-text">Please fill up your details.</p>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter Name" required>
+    <span class="required-message">*Please insert a name</span>
+
+    <label for="birthday">Birthday</label>
+    <div class="birthday-container">
+      <input type="text" id="day" placeholder="DD" required>
+      <input type="text" id="month" placeholder="MM" required>
+      <input type="text" id="year" placeholder="YYYY" required>
+      <span class="required-message">*Please insert your birthday</span>
+    </div>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Email Address" required>
+    <span class="required-message">*Please insert a valid address</span>
+
+    <label>
+      <input type="checkbox"> No email address
+    </label>
+
+    <button class="orange-button">Continue</button>
+  </div>
+
+</body>
+</html>
